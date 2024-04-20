@@ -109,6 +109,7 @@ function Graphs() {
 
   return (
     <div className="container mx-auto px-4 py-8 border border-gray-300 rounded-lg">
+             <w3m-button />
       <center>
         <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-red md:text-5xl lg:text-6xl">
           <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
