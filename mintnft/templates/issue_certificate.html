@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+
+{% block content %}
+<h1>Issue Certificate</h1>
+<br>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input class="btn btn-dark" type="submit" value="Issue">
+</form>
+{% endblock %}
